@@ -1,0 +1,498 @@
+{
+        "intents": [
+                {
+                        "tag": "no encontre respuesta",
+                        "patterns": [
+                                ""
+                        ],
+                        "responses": [
+                                "No encontre una respuesta para tu pregunta"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Intro",
+                        "patterns": [
+                                "Que es Netflix?"
+                        ],
+                        "responses": [
+                                "Netflix es una plataforma de transmision en linea que ofrece una amplia variedad de peliculas, series de television y contenido original."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Origen",
+                        "patterns": [
+                                "Cuando se fundo Netflix?"
+                        ],
+                        "responses": [
+                                "Netflix se fundo en 1997 en los Estados Unidos, en California."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Fundadores",
+                        "patterns": [
+                                "Quienes fueron los fundadores de Netflix?"
+                        ],
+                        "responses": [
+                                "Netflix fue fundada por Reed Hastings y Marc Randolph."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Modelo de Negocio",
+                        "patterns": [
+                                "Cual es el modelo de negocio de Netflix?"
+                        ],
+                        "responses": [
+                                "El modelo de negocio de Netflix se basa en una suscripcion mensual que brinda acceso ilimitado a su biblioteca de contenido por streaming."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Streaming",
+                        "patterns": [
+                                "Que es el streaming?"
+                        ],
+                        "responses": [
+                                "El streaming es la transmision de contenido multimedia a traves de internet en tiempo real. En Netflix, puedes ver peliculas y programas de television en streaming sin necesidad de descargarlos previamente."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Crecimiento",
+                        "patterns": [
+                                "Como ha crecido Netflix a lo largo de los anos?"
+                        ],
+                        "responses": [
+                                "Netflix ha experimentado un crecimiento espectacular a nivel global, expandiendo su presencia a casi todos los paises del mundo y aumentando su base de suscriptores constantemente."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Contenido Original",
+                        "patterns": [
+                                "Cual es el contenido original mas popular de Netflix?"
+                        ],
+                        "responses": [
+                                "Algunas de las series originales mas populares de Netflix incluyen 'Stranger Things', 'The Crown', 'Narcos' y 'The Witcher'."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Produccion Propia",
+                        "patterns": [
+                                "Netflix produce sus propias peliculas?"
+                        ],
+                        "responses": [
+                                "Si, Netflix produce sus propias peliculas y ha producido una gran cantidad de ellas en los ultimos anos, compitiendo incluso en festivales de cine importantes."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Competidores",
+                        "patterns": [
+                                "Cuales son los principales competidores de Netflix?"
+                        ],
+                        "responses": [
+                                "Netflix compite con servicios de streaming como Amazon Prime Video, Disney+, HBO Max y Hulu, entre otros."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Produccion de Contenido",
+                        "patterns": [
+                                "Cuanto gasta Netflix en la produccion de contenido?"
+                        ],
+                        "responses": [
+                                "Netflix ha invertido miles de millones de dolares en la produccion de contenido original, convirtiendose en uno de los mayores productores de contenido de la industria."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Recomendaciones",
+                        "patterns": [
+                                "Puedes recomendarme una pelicula de Netflix?"
+                        ],
+                        "responses": [
+                                "Claro, que genero te interesa? Drama, comedia, ciencia ficcion, documentales..."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Interfaz",
+                        "patterns": [
+                                "Como puedo cambiar el idioma de la interfaz de Netflix?"
+                        ],
+                        "responses": [
+                                "Puedes cambiar el idioma de la interfaz de Netflix en la configuracion de tu perfil. Ve a 'Administrar perfiles' y selecciona el perfil que deseas modificar. Luego, busca la opcion de idioma."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Descargas",
+                        "patterns": [
+                                "Puedo descargar peliculas y series en Netflix?"
+                        ],
+                        "responses": [
+                                "Si, puedes descargar contenido en Netflix para verlo sin conexion en tu dispositivo movil. Solo necesitas la aplicacion de Netflix y una suscripcion activa."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Calidad de Transmision",
+                        "patterns": [
+                                "Que calidad de transmision ofrece Netflix?"
+                        ],
+                        "responses": [
+                                "Netflix ofrece diferentes niveles de calidad, incluyendo 4K Ultra HD, pero esto depende de tu plan y de si tu dispositivo es compatible con esa resolucion."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Plan Basico",
+                        "patterns": [
+                                "Cuanto cuesta el plan basico de Netflix?"
+                        ],
+                        "responses": [
+                                "El plan basico de Netflix suele ser el mas economico y varia segun la region, pero generalmente tiene un precio mensual mas bajo que otros planes y permite una sola pantalla y sin calidad HD."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Plan Estandar",
+                        "patterns": [
+                                "Cuanto cuesta el plan estandar de Netflix?"
+                        ],
+                        "responses": [
+                                "El plan estandar de Netflix generalmente tiene un precio mensual intermedio y permite la transmision en dos pantallas a la vez, ademas de incluir calidad HD."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Plan Premium",
+                        "patterns": [
+                                "Cuanto cuesta el plan premium de Netflix?"
+                        ],
+                        "responses": [
+                                "El plan premium de Netflix suele ser el mas caro y permite la transmision en cuatro pantallas simultaneas, ademas de incluir calidad 4K Ultra HD, cuando sea posible."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Cancelacion",
+                        "patterns": [
+                                "Como puedo cancelar mi suscripcion a Netflix?"
+                        ],
+                        "responses": [
+                                "Puedes cancelar tu suscripcion a Netflix en cualquier momento a traves de la pagina web de Netflix. Ve a tu cuenta y busca la opcion de cancelar."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Compatibilidad",
+                        "patterns": [
+                                "Que dispositivos son compatibles con Netflix?"
+                        ],
+                        "responses": [
+                                "Netflix es compatible con una amplia variedad de dispositivos, incluyendo Smart TVs, telefonos inteligentes, tabletas, consolas de videojuegos y mas."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Compartir Contraseña",
+                        "patterns": [
+                                "Puedo compartir mi contrasena de Netflix con otras personas?"
+                        ],
+                        "responses": [
+                                "Netflix tiene politicas contra el compartir contrasenas, pero la cantidad de dispositivos y pantallas simultaneas varia segun el plan que tengas."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Produccion Internacional",
+                        "patterns": [
+                                "Netflix produce contenido en diferentes paises?"
+                        ],
+                        "responses": [
+                                "Si, Netflix produce contenido en numerosos paises y ha invertido en series y peliculas originales de todo el mundo para satisfacer a una audiencia global."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Recepcion de Criticas",
+                        "patterns": [
+                                "Como ha sido recibido el contenido original de Netflix por parte de la critica?"
+                        ],
+                        "responses": [
+                                "Netflix ha recibido tanto elogios como criticas por su contenido original, pero muchas de sus producciones han sido aclamadas y han ganado premios importantes."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Diversidad de Contenido",
+                        "patterns": [
+                                "Que tipo de contenido ofrece Netflix?"
+                        ],
+                        "responses": [
+                                "Netflix ofrece una amplia variedad de contenido, incluyendo peliculas y series de diferentes generos, documentales, programas infantiles y mas, para satisfacer los gustos de diferentes audiencias."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Innovacion",
+                        "patterns": [
+                                "En que se ha destacado Netflix en terminos de innovacion en la industria del entretenimiento?"
+                        ],
+                        "responses": [
+                                "Netflix ha sido pionero en la distribucion de contenido por streaming y ha introducido caracteristicas como la reproduccion automatica y algoritmos de recomendacion personalizados."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Contenido Exclusivo",
+                        "patterns": [
+                                "Netflix tiene contenido exclusivo que no se encuentra en otros servicios de streaming?"
+                        ],
+                        "responses": [
+                                "Si, Netflix tiene una gran cantidad de contenido exclusivo que no se encuentra en otros servicios de streaming. Esto incluye sus series y peliculas originales."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Suscripcion Gratuita",
+                        "patterns": [
+                                "Netflix ofrece alguna prueba gratuita para nuevos usuarios?"
+                        ],
+                        "responses": [
+                                "Netflix solia ofrecer pruebas gratuitas, pero las politicas pueden variar segun la region y el momento. Te recomiendo verificar la pagina web de Netflix para obtener informacion actualizada."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Descubrimiento de Contenido",
+                        "patterns": [
+                                "Como sugiere Netflix peliculas y series para ver?"
+                        ],
+                        "responses": [
+                                "Netflix utiliza un algoritmo de recomendacion que se basa en tu historial de visualizacion y tus preferencias para sugerirte contenido relevante. Tambien considera lo que han visto otros usuarios con gustos similares."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Contenido Infantil",
+                        "patterns": [
+                                "Netflix tiene contenido apropiado para ninos?"
+                        ],
+                        "responses": [
+                                "Si, Netflix ofrece una amplia seleccion de series y peliculas infantiles. Algunas de las populares incluyen 'Coco', 'Paw Patrol' y 'Peppa Pig'."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Recientes Lanzamientos",
+                        "patterns": [
+                                "Cuales son los lanzamientos mas recientes en Netflix?"
+                        ],
+                        "responses": [
+                                "Los lanzamientos en Netflix varian segun la region y el tiempo, pero puedes encontrar las novedades en la seccion 'Nuevos lanzamientos' de la plataforma."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Premios",
+                        "patterns": [
+                                "Ha ganado Netflix premios importantes?"
+                        ],
+                        "responses": [
+                                "Si, Netflix ha ganado numerosos premios importantes, incluyendo premios Emmy y premios Oscar, por sus producciones originales."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Offline",
+                        "patterns": [
+                                "Puedo ver contenido descargado de Netflix sin conexion a internet?"
+                        ],
+                        "responses": [
+                                "Si, una vez descargado, puedes ver contenido de Netflix sin necesidad de estar conectado a internet. Esto es util para viajar o cuando no tienes acceso a una conexion estable."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Doblaje y Subtitulos",
+                        "patterns": [
+                                "Netflix ofrece opciones de doblaje y subtitulos?"
+                        ],
+                        "responses": [
+                                "Si, Netflix ofrece doblaje y subtitulos en varios idiomas para la mayoria de su contenido, lo que facilita la experiencia de visualizacion para personas de diferentes regiones y preferencias."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Inversion en Contenido Original",
+                        "patterns": [
+                                "Cuanto dinero invierte Netflix en la produccion de contenido original anualmente?"
+                        ],
+                        "responses": [
+                                "Netflix ha invertido miles de millones de dolares anualmente en la produccion de contenido original, convirtiendose en uno de los mayores productores de la industria del entretenimiento."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Perfil de Usuario",
+                        "patterns": [
+                                "Puedo tener varios perfiles en una sola cuenta de Netflix?"
+                        ],
+                        "responses": [
+                                "Si, puedes tener varios perfiles en una sola cuenta de Netflix, lo que permite a cada miembro de la familia tener sus propias preferencias y lista de reproduccion."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Contenido en 4K",
+                        "patterns": [
+                                "Todo el contenido de Netflix esta disponible en 4K?"
+                        ],
+                        "responses": [
+                                "No todo el contenido de Netflix esta disponible en 4K, pero una creciente cantidad de series y peliculas ofrecen esta calidad si tienes un plan que lo incluye y un dispositivo compatible."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Transmision en 4K",
+                        "patterns": [
+                                "Que necesito para ver contenido en 4K en Netflix?"
+                        ],
+                        "responses": [
+                                "Para ver contenido en 4K en Netflix, necesitas un plan Premium que lo incluya y un televisor o dispositivo que sea compatible con la resolucion 4K."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Accesibilidad",
+                        "patterns": [
+                                "Netflix ofrece contenido con descripcion de audio y subtitulos para personas con discapacidades?"
+                        ],
+                        "responses": [
+                                "Si, Netflix se preocupa por la accesibilidad y ofrece contenido con descripcion de audio y subtitulos para personas con discapacidades visuales o auditivas."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Eliminacion de Contenido",
+                        "patterns": [
+                                "Netflix elimina peliculas y series de su catalogo?"
+                        ],
+                        "responses": [
+                                "Si, Netflix rota su catalogo y ocasionalmente retira peliculas y series debido a acuerdos de licencia en constante cambio. Sin embargo, su biblioteca siempre se actualiza con nuevo contenido."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Clasificacion de Contenido",
+                        "patterns": [
+                                "Como se clasifica el contenido en Netflix?",
+                                "Puedo ver la clasificacion por edades en Netflix?"
+                        ],
+                        "responses": [
+                                "Netflix clasifica su contenido en categorias como 'Para toda la familia', 'Mayores de 13 anos', 'Mayores de 18 anos', entre otras, para ayudarte a encontrar contenido adecuado."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Innovaciones Futuras",
+                        "patterns": [
+                                "Que innovaciones futuras podemos esperar de Netflix?",
+                                "Hablame sobre las futuras mejoras y caracteristicas de Netflix"
+                        ],
+                        "responses": [
+                                "Netflix continua innovando y mejorando su plataforma. Se espera que siga invirtiendo en contenido original, tecnologia de transmision y experiencia del usuario para mantenerse como lider en la industria del streaming."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                }
+        ]
+}
